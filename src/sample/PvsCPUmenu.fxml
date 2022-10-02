@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="240.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PvsCPUmenuController">
+   <children>
+      <Button fx:id="Start_game_btn" layoutX="80.0" layoutY="54.0" mnemonicParsing="false" onAction="#Click_on_start_game_btn" prefHeight="39.0" prefWidth="124.0" text="Start game">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Show_profile_btn" layoutX="80.0" layoutY="130.0" mnemonicParsing="false" onAction="#Click_on_show_profile_btn" text="Show profile">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
